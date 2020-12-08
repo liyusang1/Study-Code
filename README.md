@@ -1,1 +1,1 @@
-# Study-Code
+# Study Code 모음
