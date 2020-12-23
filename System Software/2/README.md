@@ -4,5 +4,3 @@
 ## 함수 open에 O_CREATE를 이용하여 파일을 만든 뒤, write()시스템 콜을 이용하여 내용을 작성하면 파일의 offset이 파일의 마지막 부분을 가르킨다.
 
 ## 그러므로 파일을 read()시스템콜을 통해 읽으려면 lseek()을 통해 파일의 offset을 변경하거나 파일을 close()한 후 다시 open()해야 한다.
-
-![result](result.png)
